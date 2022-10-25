@@ -6,6 +6,7 @@ In order to train a new model the dataset was splitted into train and validation
 ### Training
 YOLOv7 was used to get a custom data model.
 > I apologize in advance if newer versions of yolo frameworks were prohibited, though v7 performes better and works nice and smooth with this data format.
+
 Training folder contains necessary data and the resulting weights.
 ### Testing the model
 Embedded testing script was used to evaluate the model and visualize essential metrics.
