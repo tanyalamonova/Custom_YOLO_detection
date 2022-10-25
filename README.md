@@ -11,9 +11,14 @@ Training folder contains necessary data and the resulting weights.
 ### Testing the model
 Embedded testing script was used to evaluate the model and visualize essential metrics.
 ![confusion matrix (class 'head' performes worse than the others)](metrics/confusion_matrix.png)
+*confusion matrix (class 'head' performes worse than the others)*
 ![precision/recall curve](metrics/PR_curve.png)
+*precision/recall curve*
 ![F1 curve (in this case higher confidence could be better)](metrics/F1_curve.png)
+*F1 curve (in this case higher confidence could be better)*
 ### Visualizing the results
 As the list of class names was assigned when preparing the dataset, we can see the real names of detected objects (some of the labels are overlayed but we can see the difference as the bounding boxes are color coded).
 ![1 body, 1 head and 1 uniform](detection/00000479.jpg)
+*1 body, 1 head and 1 uniform*
 ![one more set of body, head and uniform](detection/1192.jpg)
+*one more set of body, head and uniform*
